@@ -3,7 +3,7 @@
 uint16_t Baud = 9600;
 uint8_t interruptPin = 3;  //Hall Sensor interrput
 // Timestamp; Speed; Force; Current; Voltage;
-int SensorData[6];
+int SensorData[5];
 
 
 void setup()
